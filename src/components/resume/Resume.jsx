@@ -82,7 +82,7 @@ function Resume() {
       {achData ? <Achivements /> : null}
       <div className="w-[200px] ml-20 lgl:translate-x-[560px] lgl:ml-0 mt-20">
         <a
-          href="https://drive.google.com/file/d/141rbCmejHXtkzacabOAIh8fgHafyCELh/view?usp=sharing"
+          href="https://drive.google.com/file/d/1C8l3tt3IiLFji0UgIljENXvfDLMw-4M7/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="w-full px-10 h-10 text-designColor bg-black bg-opacity-25 hover:bg-opacity-50 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium mb-[10px]"
