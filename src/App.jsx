@@ -1,5 +1,6 @@
 import React from 'react'
 import './index.css';
+
 import Navbar from './components/navbar/Navbar';
 import Banner from './components/banner/Banner';
 import Features from './components/features/Features';
