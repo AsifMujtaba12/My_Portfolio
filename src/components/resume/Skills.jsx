@@ -40,9 +40,9 @@ const Skills = () => {
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <span
                 
-                className="w-[80%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[95%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
               >
-                <span className="absolute -top-8 right-0">80%</span>
+                <span className="absolute -top-8 right-0">95%</span>
               </span>
             </span>
           </div>
@@ -51,9 +51,9 @@ const Skills = () => {
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <span
                 
-                className="w-[75%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[95%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
               >
-                <span className="absolute -top-8 right-0">75%</span>
+                <span className="absolute -top-8 right-0">95%</span>
               </span>
             </span>
           </div>
@@ -62,9 +62,9 @@ const Skills = () => {
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <span
                 
-                className="w-[60%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[95%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
               >
-                <span className="absolute -top-8 right-0">60%</span>
+                <span className="absolute -top-8 right-0">95%</span>
               </span>
             </span>
           </div>
@@ -73,9 +73,9 @@ const Skills = () => {
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <span
                 
-                className="w-[50%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[95%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
               >
-                <span className="absolute -top-8 right-0">50%</span>
+                <span className="absolute -top-8 right-0">95%</span>
               </span>
             </span>
           </div>
@@ -86,18 +86,18 @@ const Skills = () => {
                 
                 className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
               >
-                <span className="absolute -top-8 right-0">50%</span>
+                <span className="absolute -top-8 right-0">90%</span>
               </span>
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">GSAP</p>
+            <p className="text-sm uppercase font-medium">Motion</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <span
                 
-                className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                className="w-[60%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
               >
-                <span className="absolute -top-8 right-0">90%</span>
+                <span className="absolute -top-8 right-0">60%</span>
               </span>
             </span>
           </div>

@@ -18,22 +18,22 @@ function Projects() {
 
     <div className='grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-2 xl:grid-cols-3 gap-10 xl:gap-20'>
       <ProjectCards
-        title={"Quiz APP"}
-          des={"An interactive quiz application built with HTML, CSS, and JavaScript to enhance my learning and test knowledge on various topics. Perfect for study and fun!"}
+        title={"Real Time Chat APP"}
+          des={"A real-time chat application built with the MERN stack and Socket.io, enabling instant messaging and online user tracking. Features secure authentication, responsive UI, and real-timeupdates."}
           src={projectOne}
-          githublink={()=>handleGitlink('https://github.com/AsifMujtaba12/Quiz-App')}
+          githublink={()=>handleGitlink('https://github.com/AsifMujtaba12/Chat_APP')}
       />
       <ProjectCards 
-        title="Rolling Dice Game"
-          des="A fun and interactive game built with HTML, Tailwind CSS, and JavaScript. Roll the dice and test your luck in this engaging and visually appealing game."
+        title="MEDIBOOK"
+          des="Doctor’s Booking Appointment App (Ongoing): Developing a full-stack doctor’s appointment booking platform using the MERN stack to facilitate easy scheduling and patient management."
           src={projectTwo}
-          githublink={()=>handleGitlink('https://github.com/AsifMujtaba12/Rolling_Dice_game')}
+          githublink={()=>handleGitlink('https://github.com/AsifMujtaba12/MEDIBOOK')}
       />
       <ProjectCards 
-        title="Password Generator"
-          des="A secure and user-friendly password generator built with HTML, Tailwind CSS, and JavaScript. Create strong, random passwords to enhance your online security effortlessly."
+        title="MERN Authentication Login/Signup"
+          des="MERN Authentication: Implemented secure user authentication and authorization using JWT, MongoDB, Express.js, React.js, and Node.js."
           src={projectThree}
-          githublink={()=>handleGitlink('https://github.com/AsifMujtaba12/Password-Generator')}
+          githublink={()=>handleGitlink('https://github.com/AsifMujtaba12/Auth_MERN')}
       />
       <ProjectCards
         title="Todo List App"

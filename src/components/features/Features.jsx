@@ -30,8 +30,8 @@ function Features() {
             icon={<FaReact/>}
         />
         <Cards
-        title={"UX/UI Designer"}
-        description={"I design intuitive and visually captivating user experiences. My work focuses on creating user-friendly interfaces and enhancing overall interaction, ensuring that every digital experience is both engaging and enjoyable."} 
+        title={"Frontend and Backend Developer"}
+        description={"I build interactive web applications using React.js and Tailwind CSS for the frontend, while developing scalable APIs with Node.js, Express.js, and managing databases like MongoDB for the backend."} 
         icon={<SiAntdesign/>}
         />
         

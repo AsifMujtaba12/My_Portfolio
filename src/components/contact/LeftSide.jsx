@@ -26,7 +26,7 @@ rounded-lg shadow-shadowOne flex flex-col gap-4 '>
      I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact anytime.
     </p>
     <p className="text-base text-gray-400 flex items-center gap-2">
-    <FaPhoneSquareAlt /><span className="text-lightText">+9149667915</span>
+    <FaPhoneSquareAlt /><span className="text-lightText">9149667915</span>
     </p>
     <p className="text-base text-gray-400 flex items-center gap-2">
     <MdOutlineMarkEmailRead /><span className="text-lightText">asifmujtaba8888@gmail.com</span>

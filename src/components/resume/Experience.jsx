@@ -10,10 +10,10 @@ function Experience() {
             <div className="mt-10 w-full h-full border-l-[6px] border-l-black ml-10 lgl:ml-[100px]
             border-opacity-30 flex flex-col gap-10">
                 <ExpCard 
-                    title={"Full Stack Development Internship"}
-                    duration={" May-2024- Dec-2024"}
+                    title={"Full Stack Development Course"}
+                    duration={" May-2024- jan-2025"}
                     result={"PW Skills"}
-                    des={"During my Full Stack MERN Developer internship at PW Skills (May 2024 - Dec 2024), I gained hands-on experience with MongoDB, Express.js, React.js, and Node.js.I built dynamic web applications, developed APIs, and created responsive interfaces. This internship honed my skills in both front-end and back-end development, making me proficient in delivering robust and user-friendly solutions."}
+                    des={"During my Full Stack MERN Developer course at PW Skills (May 2024 - Jan 2025), I gained hands-on experience with MongoDB, Express.js, React.js, and Node.js.I built dynamic web applications, developed APIs, and created responsive interfaces. This internship honed my skills in both front-end and back-end development, making me proficient in delivering robust and user-friendly solutions."}
                 />
                 {/* <ExpCard 
                     title={"Full Stack Web Development (MERN)"}
