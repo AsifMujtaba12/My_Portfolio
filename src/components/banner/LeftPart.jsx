@@ -7,6 +7,7 @@ function LeftPart() {
     words: [
       "a Full Stack MERN Developer.",
       "a Frontend Developer.",
+      "a Backend Developer",
       "an Electrical Engineer.",
     ],
     loop: true,
@@ -34,7 +35,7 @@ function LeftPart() {
           Enthusiastic MERN stack developer with a strong passion for creating
           visually appealing and responsive web designs. Proficient in React and
           modern frontend technologies, with a knack for bringing animations to
-          life using GSAP. Always eager to learn and contribute to exciting
+          life using GSAP/Motion. Always eager to learn and contribute to exciting
           projects. Actively seeking a frontend developer role to apply my
           skills and grow within a creative and dynamic team.
         </p>

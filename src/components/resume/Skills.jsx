@@ -91,7 +91,7 @@ const Skills = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">Motion</p>
+            <p className="text-sm uppercase font-medium">GSAP/Motion</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <span
                 
