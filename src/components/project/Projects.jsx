@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne,projectTwo,projectThree,lms,projectFive,projectSix} from '../../asset1';
+import { projectOne,projectTwo,projectThree,projectFour,projectFive,projectSix} from '../../asset1';
 
 
 import ProjectCards from './ProjectCards';
@@ -20,7 +20,7 @@ function Projects() {
        <ProjectCards
         title="Learning Management System (LMS)"
           des="Developed a full-stack LMS using MERN with Clerk authentication and Stripe payments for course enrollment and progress tracking."
-          src={lms}
+          src={projectFour}
           githublink={()=>handleGitlink('https://github.com/AsifMujtaba12/LMS-WEBSITE')}
       />
       <ProjectCards
