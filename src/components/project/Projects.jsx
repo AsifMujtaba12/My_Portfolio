@@ -17,6 +17,12 @@ function Projects() {
     </div>
 
     <div className='grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-2 xl:grid-cols-3 gap-10 xl:gap-20'>
+       <ProjectCards
+        title="Learning Management System (LMS)"
+          des="Developed a full-stack LMS using MERN with Clerk authentication and Stripe payments for course enrollment and progress tracking."
+          src={projectFour}
+          githublink={()=>handleGitlink('https://github.com/AsifMujtaba12/LMS-WEBSITE')}
+      />
       <ProjectCards
         title={"Real Time Chat APP"}
           des={"A real-time chat application built with the MERN stack and Socket.io, enabling instant messaging and online user tracking. Features secure authentication, responsive UI, and real-timeupdates."}
@@ -35,12 +41,7 @@ function Projects() {
           src={projectThree}
           githublink={()=>handleGitlink('https://github.com/AsifMujtaba12/Auth_MERN')}
       />
-      <ProjectCards
-        title="Todo List App"
-          des="A simple and efficient to-do list application built with HTML, CSS, and JavaScript. Manage your tasks effortlessly and stay organized throughout the day."
-          src={projectFour}
-          githublink={()=>handleGitlink('https://github.com/AsifMujtaba12/Todo-list')}
-      />
+     
       <ProjectCards 
         title="Tic-Tac-Toe"
           des="A classic Tic Tac Toe game built with React JS and CSS. Enjoy a fun and interactive way to play this timeless game with smooth animations and responsive design."
