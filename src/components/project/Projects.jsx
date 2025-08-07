@@ -22,6 +22,7 @@ function Projects() {
           des="Developed a full-stack LMS using MERN with Clerk authentication and Stripe payments for course enrollment and progress tracking."
           src={projectFour}
           githublink={()=>handleGitlink('https://github.com/AsifMujtaba12/LMS-WEBSITE')}
+          liveLink={() => handleGitlink('https://lms-frontend-n77l5saz1-asif-mujtabas-projects.vercel.app/')}
       />
       <ProjectCards
         title={"Real Time Chat APP"}
@@ -34,6 +35,8 @@ function Projects() {
           des="Doctor’s Booking Appointment App (Ongoing): Developing a full-stack doctor’s appointment booking platform using the MERN stack to facilitate easy scheduling and patient management."
           src={projectTwo}
           githublink={()=>handleGitlink('https://github.com/AsifMujtaba12/MEDIBOOK')}
+          liveLink={() => handleGitlink('https://medibook-git-main-asif-mujtabas-projects.vercel.app/')}
+
       />
       <ProjectCards 
         title="MERN Authentication Login/Signup"
