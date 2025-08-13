@@ -24,9 +24,21 @@ function ProjectCards({ title, des, src, githublink, liveLink}) {
         <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400
          hover:text-designColor duration-300 cursor-pointer" onClick={githublink} >
         <BsGithub /></span>
-        <span onClick={liveLink}
-         className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400
-         hover:text-designColor duration-300 cursor-pointer"><FaProjectDiagram /></span>
+        <div className="relative inline-flex">
+  <span
+    onClick={liveLink}
+    className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400
+    hover:text-designColor duration-300 cursor-pointer relative group"
+  >
+    <FaProjectDiagram />
+  </span>
+
+  {/* Tooltip */}
+  <span className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 px-2 py-1 text-xs rounded bg-black text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+    Live Link
+  </span>
+</div>
+
         </div>
       </div>
       <div>

@@ -20,7 +20,10 @@ function ExpCard({title, institution, duration, result, des}) {
     <p>{des}</p>
     </div>
     <div> 
-    <h3 className='w-20 h-10 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium mb-[190px]'>{result}</h3>
+    <h3 className="w-full sm:w-80 md:w-96 lg:w-[28rem] h-16 text-designColor px-2 bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium mb-[190px]">
+  {result}
+</h3>
+
 
   </div>
     </div>
